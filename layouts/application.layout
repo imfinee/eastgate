@@ -156,7 +156,7 @@
     /*social media icon inner color*/
     #social_media_wrapper a{
         color:#ada894 !important;
-        color: white !important;
+        background: white !important;
     }
     #social_media_wrapper a:hover{
         color:white !important;
