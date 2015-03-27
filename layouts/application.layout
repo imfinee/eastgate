@@ -23,7 +23,7 @@
 
 <script type="text/javascript" src="http://kodekloud.s3.amazonaws.com/sites/54b83f086e6f646b45000000/360754705c291ba7cd4a4a18102adbaf/modernizr.custom.48287.js"></script>
 <!-- favicon -->
-<link rel="shortcut icon" href="http://kodekloud.io/assets/ico-5afc1db1d6993a69a9a35be7e257bd30.png" type="image/x-icon" />
+<link rel="shortcut icon" href="http://kodekloud.s3.amazonaws.com/sites/550c63266e6f6462fa000000/08a5e8044cc0bc636b2d0b03e2a3d5ab/favicon.ico" type="image/x-icon" />
 
 <!-- jQuery Version 1.11.0 -->
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
