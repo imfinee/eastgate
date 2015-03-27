@@ -105,7 +105,7 @@
        width:100% !important;
    }
     header{
-        background: #e9e4d0;
+        background: #ada894;
     }
     
     .main_window{
