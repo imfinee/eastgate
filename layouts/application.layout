@@ -113,14 +113,14 @@
     }
     .btn-primary{
         background: #ed2227 !important;
-        border-color:#ccc6b8 !important;
+        border-color:#8f8a76 !important;
         text-align:center;
         color:white !important;
     }
     
     .btn-primary:hover{
     background: #ed2227 !important;
-        border-color:#ccc6b8 !important;
+        border-color:#8f8a76 !important;
         text-align:center;
         color:white !important;
     }
@@ -130,7 +130,7 @@
         color:white;
     }
     .view_button {
-        background:#e9e4d0 !important;
+        background:#ada894 !important;
     }
     
     .navbar .nav li a:hover,.navbar .nav li a:active{
@@ -150,15 +150,15 @@
     }
     /*social media box color*/
     #social_media_wrapper{
-        background:#e9e4d0;
+        background:#ada894;
     }
     /*social media icon inner color*/
     #social_media_wrapper a{
-        color:#e9e4d0;
+        color:#ada894;
     }
     #social_media_wrapper a:hover{
         color:white !important;
-        background:#e9e4d0;
+        background:#ada8940;
     }
     .map-mouse-over{
     /*set color of store highlight and hover over for SVG map*/
@@ -181,19 +181,20 @@
     
     
     .right_column_header {
-        color: #18498d ;
+        color: #ed2227 ;
     }
     
     .navbar .nav li a:hover {
-        color:#999999 !important;
+        color:#e9e4d0 !important;
     
     }
      .site-map-section a:hover {
+         color: #e9e4d0 !important;
      }
     @media (max-width: 767px) {
         .main_window{
             width:100%;
-            border:15px solid #eaf1fb !important;
+            border:15px solid #f5f4ee !important;
             border-top:none !important;
         }  
     }
