@@ -103,7 +103,7 @@
     }
     
     header{
-        background: #eeeada;
+        background: #e9e4d0;
     }
     
     .main_window{
