@@ -166,11 +166,11 @@
     }
     /*inside page banners*/
     .page_banner{
-        background: #e3e8f1 !important;
+        background: #e0ddce !important;
     }
     
     #description_section{
-        background: #e3e8f1 !important;
+        background: #e0ddce !important;
     }
     
     .section_header{}
