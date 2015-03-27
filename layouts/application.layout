@@ -155,13 +155,13 @@
     }
     /*social media icon inner color*/
     #social_media_wrapper a{
-        color:#434f8c;
+        color:#ada894c;
         background:white !important;
         
     }
     #social_media_wrapper a:hover{
         color: white !important;
-        background:#434f8c !important;
+        background:#ada894 !important;
     }
     .map-mouse-over{
     /*set color of store highlight and hover over for SVG map*/
