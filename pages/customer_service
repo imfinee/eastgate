@@ -4,15 +4,15 @@
 <div  id="main_content" style="display:none">
     <ul class="breadcrumb">
         <li><a href="/home">Home</a> </li>
-        <li class="active">page template</li>
+        <li class="active">Customer Service</li>
     </ul>
     <div class="page_banner">
-        page template
+        Customer Service
     </div>
     <div class="inside_page_content">
         <div class="left_column">
             <img class="inside_banner_image" alt="banner" src="http://kodekloud.s3.amazonaws.com/sites/550c63266e6f6462fa000000/ccf3c22d4d18b16c85a7e3404760baff/banner4.png"/>
-            <h2>Customer Service</h2>
+           
             <div>To reach Customer Service call 905-561-2444 open all shopping mall hours. Customer Service is located between People&rsquo;s Jewellers and Charm Diamond Centres.<br />
 <br />
 <u><strong>Centre/Event Information</strong></u><br />
