@@ -182,7 +182,9 @@
         padding-bottom:10px;
     }
     
-    
+    .site_description {
+        color:black;
+    }
     .right_column_header {
         color: #ed2227 ;
     }
