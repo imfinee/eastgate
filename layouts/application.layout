@@ -223,6 +223,7 @@
                             <div id="leasing_dd" class="submenu" style="display:none">
                                 <ul>
                                     <li><a href="/leasing">Leasing</a></li>
+                                    <li><a href="/specialty_leasing">Specialty Leasing Inquiries</a></li>
                                     <li><a href="/photos">Photos</a></li>
                                 </ul>    
                             </div>
@@ -256,6 +257,7 @@
                          <li id="leasing_link" class="dropdown"><a data-toggle="dropdown" class="dropdown-toggle">Leasing <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="/leasing">Leasing</a></li>
+                                <li><a href="/specialty_leasing">Specialty Leasing Inquiries</a></li>
                                 <li><a href="/photos">Photos</a></li>
                             </ul> 
                          </li>
