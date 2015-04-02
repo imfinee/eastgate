@@ -258,7 +258,7 @@
                 $("#zControls").hide();
                 $("#png_map").attr("src", getPNGMapURL())
                 if(isMobile) {
-                    initial_zoom = 15;
+                    initial_zoom = 5;
                     zoom_min = 15
                 } else {
                     initial_zoom = 100;
