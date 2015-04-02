@@ -262,7 +262,7 @@
                     zoom_min = 15
                 } else {
                     initial_zoom = 60;
-                    zoom_min = 100;
+                    zoom_min = 60;
                 }
                 jQuery(function($){
             		$('#png_map').smoothZoom({
