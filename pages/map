@@ -261,8 +261,8 @@
                     initial_zoom = 15;
                     zoom_min = 15
                 } else {
-                    initial_zoom = 60;
-                    zoom_min = 60;
+                    initial_zoom = 50;
+                    zoom_min = 50;
                 }
                 jQuery(function($){
             		$('#png_map').smoothZoom({
