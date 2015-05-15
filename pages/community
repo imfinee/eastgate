@@ -196,16 +196,16 @@
                         </div>
                     </div>
                 </div>
-                
-               <div class="col-sm-6 col-md-6 padding-left-none">
-                    <label for="anyother">Please specify any other requirements</label>
-                    <textarea name="anyother" id="anyother" class="form-control" rows="5" required></textarea>
+                <div class="col-sm-12 col-md-12 padding-side-none">
+                   <div class="col-sm-6 col-md-6 padding-left-none">
+                        <label for="anyother">Please specify any other requirements</label>
+                        <textarea name="anyother" id="anyother" class="form-control" rows="5" required></textarea>
+                    </div>
+                   <div class="col-sm-6 col-md-6 padding-left-none">
+                        <label for="attendance">Anticipated Attendance</label>
+                        <input name="attendance" id="attendance" class="form-control" type="text" required />
+                    </div>
                 </div>
-               <div class="col-sm-6 col-md-6 padding-left-none">
-                    <label for="attendance">Anticipated Attendance</label>
-                    <input name="attendance" id="attendance" class="form-control" type="text" required />
-                </div>
-                
             </div>
             
             <button class="btn btn-default" type="submit">Submit</button>
