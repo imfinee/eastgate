@@ -24,7 +24,7 @@
     .promo_header{
         margin-bottom: 20px;
     }
-    @media(min-width: 768px){
+    @media(max-width: 768px){
         .padding-side-none{
             padding-left: 15px;
             padding-right: 15px;
