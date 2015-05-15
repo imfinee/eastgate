@@ -146,9 +146,9 @@
                        <div class="col-sm-4 col-md-4 padding-left-none">
                             <label for="hydro">Is hydro required?</label>
                             <select id="hydro" name="hydro">
-                                <option></option>
-                                <option></option>
-                                <option></option>
+                                <option>Yes / No</option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
                             </select>
                         </div>
                         <div class="col-sm-4 col-md-4 ">
