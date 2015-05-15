@@ -265,7 +265,8 @@
     // 		}
     // 	});
     
-        
+        $('#fromDate').datepicker({});
+         $('#toDate').datepicker({});
                 
         $('#community_form').submit(function(e) {
 
