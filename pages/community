@@ -118,13 +118,16 @@
                 </div>
                 
                 <div class="col-sm-3 col-md-3 padding-left-none">
-                    
+                    <label for="charitable">Charitable</label>
+                    <input name="charitable" id="charitable" class="form-control" type="text" value required />
                 </div>
                 <div class="col-sm-3 col-md-3">
-                    
+                    <label for="charitable">Charitable</label>
+                    <input name="charitable" id="charitable" class="form-control" type="text" value required />
                 </div>
                 <div class="col-sm-3 col-md-3 padding-right-none">
-                    
+                    <div class="col-sm-6 col-md-6"></div>
+                     <div class="col-sm-6 col-md-6"></div>
                 </div>
             </div>
     </div>
