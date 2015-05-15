@@ -266,7 +266,7 @@
     // 	});
         $.fn.datepicker.defaults.format = "mm/dd/yyyy";
         $('#fromDate').datepicker({
-
+            todayHighlight:true
         });
          $('#toDate').datepicker({});
                 
