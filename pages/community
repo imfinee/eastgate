@@ -264,7 +264,7 @@
     // 			e.preventDefault();
     // 		}
     // 	});
-    
+        $.fn.datepicker.defaults.format = "mm/dd/yyyy";
         $('#fromDate').datepicker({});
          $('#toDate').datepicker({});
                 
