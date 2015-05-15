@@ -8,7 +8,7 @@
     textarea{
         resize:none;
     }
-    padding-side-none{
+    .padding-side-none{
         padding-left: 0px;
         padding-right: 0px;
     }
