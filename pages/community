@@ -25,12 +25,12 @@
         margin-bottom: 20px;
     }
     @media(max-width: 768px){
-        .padding-side-none{
-            padding-left: 15px;
-            padding-right: 15px;
+        .padding-side-none, .padding-left-none, .padding-right-none{
+            padding-left: 0px;
+            padding-right: 0px;
         }
         .padding-left-none{
-            padding-left: 15px;
+            padding-left: 0px;
         }
         .padding-right-none{
             padding-right: 15px;
