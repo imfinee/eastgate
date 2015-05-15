@@ -141,7 +141,7 @@
                     <label for="descOrg">Purpose for use of in-mall space</label>
                     <textarea name="descOrg" id="descOrg" class="form-control" rows="5" required></textarea>
                 </div>
-                <div class="col-sm-6 col-md-6 padding-right-none">
+                <div class="col-sm-6 col-md-6 padding-side-none">
                     <div class="col-sm-12 col-md-12 padding-side-none">
                        <div class="col-sm-4 col-md-4 padding-left-none">
                             <label for="hydro">Is hydro required?</label>
