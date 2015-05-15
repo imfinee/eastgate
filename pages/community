@@ -146,7 +146,7 @@
                        <div class="col-sm-4 col-md-4 padding-left-none">
                             <label for="hydro">Is hydro required?</label>
                             <select class="form-control" id="hydro" name="hydro" required>
-                                <option value="0">Yes / No</option>
+                                <option value="0" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
                             </select>
@@ -154,7 +154,7 @@
                         <div class="col-sm-4 col-md-4  padding-side-none">
                             <label for="table">Are tables required?</label>
                             <select class="form-control" id="table" name="table" required>
-                                <option value="0">Yes / No</option>
+                                <option value="0" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
                             </select>                        </div>
@@ -167,7 +167,7 @@
                        <div class="col-sm-4 col-md-4 padding-left-none">
                             <label style="font-size:13px;" for="staging">Is staging required?</label>
                             <select class="form-control" id="staging" name="staging" required>
-                                <option value="0">Yes / No</option>
+                                <option value="0" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
                             </select>   
@@ -175,7 +175,7 @@
                         <div class="col-sm-4 col-md-4  padding-side-none">
                             <label for="chair">Are chairs required?</label>
                             <select class="form-control" id="chair" name="chair" required>
-                                <option value="0">Yes / No</option>
+                                <option value="0" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
                             </select>   
