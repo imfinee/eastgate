@@ -10,9 +10,8 @@
         Community rental form
     </div>
     <div class="inside_page_content">
-</div>
-         
-  
+        
+    </div>
 </div>
 <script>
     $(document).ready(function() {
