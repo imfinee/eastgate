@@ -23,7 +23,7 @@
     }
     .promo_header{
         margin-bottom: 20px;
-        margin-top: 20px;
+        margin-top: 30px;
     }
     @media(max-width: 768px){
         .padding-side-none, .padding-left-none, .padding-right-none{
