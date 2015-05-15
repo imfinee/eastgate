@@ -29,12 +29,7 @@
             padding-left: 0px;
             padding-right: 0px;
         }
-        .padding-left-none{
-            padding-left: 0px;
-        }
-        .padding-right-none{
-            padding-right: 15px;
-        } 
+
     }
 </style>
 <div id="loading_screen">
