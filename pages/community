@@ -53,7 +53,7 @@
             
         </p>
         <p></p>
-        <form>
+        <form name="community_form" id="community_form" method="post">
             <p class="promo_header right_column_header">Business Contact Info</p>
             
             <div class="row">
