@@ -139,8 +139,8 @@
                 
                 
                <div class="col-sm-6 col-md-6 padding-left-none">
-                    <label for="descOrg">Purpose for use of in-mall space</label>
-                    <textarea name="descOrg" id="descOrg" class="form-control" rows="5" required></textarea>
+                    <label for="purpose">Purpose for use of in-mall space</label>
+                    <textarea name="purpose" id="purpose" class="form-control" rows="5" required></textarea>
                 </div>
                 <div class="col-sm-6 col-md-6 padding-side-none">
                     <div class="col-sm-12 col-md-12 padding-side-none">
@@ -187,6 +187,16 @@
                         </div>
                     </div>
                 </div>
+                
+               <div class="col-sm-6 col-md-6 padding-left-none">
+                    <label for="anyother">Please specify any other requirements</label>
+                    <textarea name="anyother" id="anyother" class="form-control" rows="5" required></textarea>
+                </div>
+               <div class="col-sm-6 col-md-6 padding-left-none">
+                    <label for="anyother">Anticipated Attendance</label>
+                    <input name="anyother" id="anyother" class="form-control" type="text" required />
+                </div>
+                
             </div>
     </div>
 </div>
