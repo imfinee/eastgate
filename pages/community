@@ -147,7 +147,7 @@
                             <label for="city">Town/City</label>
                             <input name="city" id="city" class="form-control" type="text" required />
                         </div>
-                        <div class="col-sm-4 col-md-4 padding-right-none">
+                        <div class="col-sm-4 col-md-4 ">
                             <label for="postal">Postal Code</label>
                             <input name="postal" id="postal" class="form-control" type="text" required />
                         </div>
@@ -161,7 +161,7 @@
                             <label for="city">Town/City</label>
                             <input name="city" id="city" class="form-control" type="text" required />
                         </div>
-                        <div class="col-sm-4 col-md-4 padding-right-none">
+                        <div class="col-sm-4 col-md-4">
                             <label for="postal">Postal Code</label>
                             <input name="postal" id="postal" class="form-control" type="text" required />
                         </div>
