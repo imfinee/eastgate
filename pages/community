@@ -152,26 +152,37 @@
                             </select>
                         </div>
                         <div class="col-sm-4 col-md-4 ">
-                            <label for="postal">Postal Code</label>
-                            <input name="postal" id="postal" class="form-control" type="text" required />
-                        </div>
+                            <label for="table">Are tables required?</label>
+                            <select id="table" name="table" required>
+                                <option value="0">Yes / No</option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+                            </select>                        </div>
                         <div class="col-sm-4 col-md-4 padding-right-none">
-                            <label for="postal">Postal Code</label>
-                            <input name="postal" id="postal" class="form-control" type="text" required />
+                            <label for="tableNumber">How many tables?</label>
+                            <input name="tableNumber" id="tableNumber" class="form-control" type="text" required />
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-12 padding-side-none">
                        <div class="col-sm-4 col-md-4 padding-left-none">
-                            <label for="city">Town/City</label>
-                            <input name="city" id="city" class="form-control" type="text" required />
+                            <label for="staging">Is staging required?</label>
+                            <select id="staging" name="staging" required>
+                                <option value="0">Yes / No</option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+                            </select>   
                         </div>
                         <div class="col-sm-4 col-md-4">
-                            <label for="postal">Postal Code</label>
-                            <input name="postal" id="postal" class="form-control" type="text" required />
+                            <label for="chair">Are chairs required?</label>
+                            <select id="chair" name="chair" required>
+                                <option value="0">Yes / No</option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+                            </select>   
                         </div>
                         <div class="col-sm-4 col-md-4 padding-right-none">
-                            <label for="postal">Postal Code</label>
-                            <input name="postal" id="postal" class="form-control" type="text" required />
+                            <label for="chairNumber">How many chairs?</label>
+                            <input name="chairNumber" id="chairNumber" class="form-control" type="text" required />
                         </div>
                     </div>
                 </div>
