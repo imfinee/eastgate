@@ -217,11 +217,11 @@
     });
     
             
-        $('#contact_form').submit(function(e) {
+        $('#community_form').submit(function(e) {
 
     		if($('#enterVerify').val() == $('#verifyNumHidden').val() ) {
                 values = [];
-                values = JSON.stringify($('#contact_form').serializeArray());
+                values = JSON.stringify($('#community_form').serializeArray());
                 e.preventDefault();
                 $.ajax({
                     url : "/api/v1/contact_us",
