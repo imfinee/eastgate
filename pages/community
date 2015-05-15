@@ -46,6 +46,10 @@
                 <label for="descOrg">Description of Organization</label>
                 <textarea name="descOrg" id="descOrg" class="form-control" rows="5" required></textarea>
             </div>
+            <div class="col-sm-6 col-md-6">
+                <label for="descOrg">Description of Organization</label>
+                <input name="descOrg" id="descOrg" class="form-control" type="text" required />
+            </div>
         </div> 
      
     </div>
