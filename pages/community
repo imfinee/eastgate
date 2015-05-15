@@ -199,7 +199,7 @@
                 
             </div>
             
-            <buttn class="btn btn-default">Submit</buttn>
+            <buttn class="btn btn-default" type="submit">Submit</buttn>
         </form>
     </div>
 </div>
