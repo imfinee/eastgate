@@ -22,7 +22,7 @@
         margin-top:20px;
     }
     .promo_header{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 </style>
 <div id="loading_screen">
