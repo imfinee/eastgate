@@ -107,6 +107,16 @@
      
      
          <p class="promo_header right_column_header">Contact Info</p>
+             <div class="row">
+                <div class="col-sm-6 col-md-6 padding-left-none">
+                    <label for="legalName">Legal Name of Organization</label>
+                    <input name="legalName" id="legalName" class="form-control" type="text" value required />
+                </div>
+                <div class="col-sm-6 col-md-6 padding-right-none">
+                    <label for="operatingName">Operating Name of Organization</label>
+                    <input name="operatingName" id="operatingName" class="form-control" type="text"   />
+                </div>
+            </div>
     </div>
 </div>
 <script>
