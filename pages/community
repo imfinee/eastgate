@@ -121,7 +121,7 @@
                     <label for="charitable">Charitable</label>
                     <input name="charitable" id="charitable" class="form-control" type="text" value required />
                 </div>
-                <div class="col-sm-4 col-md-4">
+                <div class="col-sm-4 col-md-4 padding-left-none">
                     <label for="lottery">Lottery License</label>
                     <input name="lottery" id="lottery" class="form-control" type="text" value required />
                 </div>
