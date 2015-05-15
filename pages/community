@@ -25,6 +25,9 @@
         margin-bottom: 20px;
         margin-top: 30px;
     }
+    .community-btn{
+        margin-top:20px;
+    }
     @media(max-width: 768px){
         .padding-side-none, .padding-left-none, .padding-right-none{
             padding-left: 0px;
@@ -208,7 +211,7 @@
                 </div>
             </div>
             
-            <button class="btn btn-default" type="submit">Submit</button>
+            <button class="btn btn-default community-btn" type="submit">Submit</button>
         </form>
     </div>
 </div>
