@@ -172,7 +172,7 @@
                                 <option value="2">No</option>
                             </select>   
                         </div>
-                        <div class="col-sm-4 col-md-4">
+                        <div class="col-sm-4 col-md-4  padding-side-none">
                             <label for="chair">Are chairs required?</label>
                             <select class="form-control" id="chair" name="chair" required>
                                 <option value="0">Yes / No</option>
