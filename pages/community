@@ -117,15 +117,15 @@
                     <input name="insurerName" id="insurerName" class="form-control" type="text"   />
                 </div>
                 
-                <div class="col-sm-3 col-md-3 padding-left-none">
+                <div class="col-sm-4 col-md-4 padding-left-none">
                     <label for="charitable">Charitable</label>
                     <input name="charitable" id="charitable" class="form-control" type="text" value required />
                 </div>
-                <div class="col-sm-3 col-md-3">
+                <div class="col-sm-4 col-md-4">
                     <label for="lottery">Lottery License</label>
                     <input name="lottery" id="lottery" class="form-control" type="text" value required />
                 </div>
-                <div class="col-sm-3 col-md-3 padding-right-none">
+                <div class="col-sm-4 col-md-4 padding-right-none">
                     <div class="col-sm-6 col-md-6">
                         <label for="fromDate">From Date</label>
                         <input name="fromDate" id="fromDate" class="form-control" type="text" value required />
@@ -134,6 +134,42 @@
                          <label for="toDate">To Date</label>
                         <input name="toDate" id="toDate" class="form-control" type="text" value required />
                      </div>
+                </div>
+                
+                
+               <div class="col-sm-6 col-md-6 padding-left-none">
+                    <label for="descOrg">Purpose for use of in-mall space</label>
+                    <textarea name="descOrg" id="descOrg" class="form-control" rows="5" required></textarea>
+                </div>
+                <div class="col-sm-6 col-md-6 padding-right-none">
+                    <div class="col-sm-12 col-md-12 padding-side-none">
+                       <div class="col-sm-4 col-md-4 padding-left-none">
+                            <label for="city">Town/City</label>
+                            <input name="city" id="city" class="form-control" type="text" required />
+                        </div>
+                        <div class="col-sm-4 col-md-4 padding-right-none">
+                            <label for="postal">Postal Code</label>
+                            <input name="postal" id="postal" class="form-control" type="text" required />
+                        </div>
+                        <div class="col-sm-4 col-md-4 padding-right-none">
+                            <label for="postal">Postal Code</label>
+                            <input name="postal" id="postal" class="form-control" type="text" required />
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-12 padding-side-none">
+                       <div class="col-sm-4 col-md-4 padding-left-none">
+                            <label for="city">Town/City</label>
+                            <input name="city" id="city" class="form-control" type="text" required />
+                        </div>
+                        <div class="col-sm-4 col-md-4 padding-right-none">
+                            <label for="postal">Postal Code</label>
+                            <input name="postal" id="postal" class="form-control" type="text" required />
+                        </div>
+                        <div class="col-sm-4 col-md-4 padding-right-none">
+                            <label for="postal">Postal Code</label>
+                            <input name="postal" id="postal" class="form-control" type="text" required />
+                        </div>
+                    </div>
                 </div>
             </div>
     </div>
