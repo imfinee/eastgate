@@ -160,7 +160,7 @@
                             </select>                        </div>
                         <div class="col-sm-4 col-md-4 padding-right-none">
                             <label for="tableNumber">How many tables?</label>
-                            <input name="tableNumber" id="tableNumber" class="form-control" type="text" required />
+                            <input name="tableNumber" id="tableNumber" class="form-control" type="text" />
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-12 padding-side-none">
@@ -182,7 +182,7 @@
                         </div>
                         <div class="col-sm-4 col-md-4 padding-right-none">
                             <label for="chairNumber">How many chairs?</label>
-                            <input name="chairNumber" id="chairNumber" class="form-control" type="text" required />
+                            <input name="chairNumber" id="chairNumber" class="form-control" type="text" />
                         </div>
                     </div>
                 </div>
