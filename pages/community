@@ -38,6 +38,11 @@
                 <label for="operatingName">Operating Name of Organization</label>
                 <input name="operatingName" id="operatingName" class="form-control" type="text"   />
             </div>
+            
+            <div class="col-sm-6 col-md-6">
+                <label for="descOrg">Description of Organization</label>
+                <textarea name="descOrg" id="descOrg" class="form-control" rows="5" required></textarea>
+            </div>
         </div> 
      
     </div>
