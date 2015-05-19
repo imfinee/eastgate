@@ -271,7 +271,9 @@
          $('#toDate').datepicker({});
                 
         $('#community_form').submit(function(e) {
-
-            alert('hi');
+            if (('#legalName').val() != ''){
+                $("html, body").animate({ scrollTop: $('#legalName').offset().top }, 1000);
+            }
+            
     	});
 </script>
