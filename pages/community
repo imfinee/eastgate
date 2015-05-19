@@ -401,7 +401,7 @@
     	    
     	    
 	        $.ajax({
-                url : "http://mallmaverick.com/custom_email",
+                url : "http://mallmaverickstaging.com/custom_email",
                 type: "POST",
                 data : { 
                     'email': "mark@mobilefringe.com", 
