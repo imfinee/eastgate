@@ -280,6 +280,10 @@
                 $("html, body").animate({ scrollTop:  $("label[for='legalName']").offset().top }, 1000);
                 $('#legalName').focus();
                 return false;
+            }else if ($('#descOrg').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='descOrg']").offset().top }, 1000);
+                $('#descOrg').focus();
+                return false;
             }
             
     	});
