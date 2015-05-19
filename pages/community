@@ -437,7 +437,8 @@
                 success: function(data, textStatus, jqXHR)
                 {
                     $('#send_contact_success').fadeIn();
-                    $('#community_form').find("input, textarea, select").val("");
+                    $('#community_form').find("input, textarea").val("");
+                    $('select').options[0].setAttribute('selected','selected');
                     $("html, body").animate({ scrollTop:  $("#send_contact_success").offset().top }, 1000);
                 },
                 error: function (jqXHR, textStatus, errorThrown)
