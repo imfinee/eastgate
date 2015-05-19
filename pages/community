@@ -275,6 +275,7 @@
                 $("html, body").animate({ scrollTop: $('#legalName').offset().top }, 1000);
                 return false;
             }
+            return false;
             
     	});
 </script>
