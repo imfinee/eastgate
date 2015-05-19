@@ -439,7 +439,7 @@
                     $('#send_contact_success').fadeIn();
                     $('#community_form').find("input, textarea, select").val("");
                   
-                    $("select option[value=0]").attr("disabled", false);
+                    $("select option[value=0]").attr("selected", true);
                     $("html, body").animate({ scrollTop:  $("#send_contact_success").offset().top }, 1000);
                 },
                 error: function (jqXHR, textStatus, errorThrown)
