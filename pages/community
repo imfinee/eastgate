@@ -371,8 +371,8 @@
             -Z-0-9]+.)+[a-zA-Z]{2,}))$/igm;
             if ($email.val() == '' || !re.test($email.val()))
             {
-                alert('Please enter a valid email address.');
                 return false;
             }
+            return true;
     	}
 </script>
