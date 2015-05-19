@@ -359,7 +359,6 @@
                 return false;
             }
             
-            alert('validation pass!');
             return false;
             
     	});
@@ -373,5 +372,9 @@
                 return false;
             }
             return true;
+    	}
+    	
+    	function sendEmail(){
+    	    
     	}
 </script>
