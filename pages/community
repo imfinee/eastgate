@@ -377,6 +377,7 @@
     	function sendEmail(){
     	    
     	    var operatingName = $('#operatingName').val();
+    	    var fax =  $('#fax').val();
     	    if($('#operatingName').val().length === 0){
     	        operatingName = 'N/A';
     	    }
