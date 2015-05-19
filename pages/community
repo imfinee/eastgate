@@ -281,10 +281,9 @@
     	
     	
     	function validateCommunityForm(){
-    	    alert(('#legalName').val().length);
-    	   if (('#legalName').val().length === 0){
+    	   if ($('#legalName').val().length === 0){
                 $("html, body").animate({ scrollTop: $('#legalName').offset().top }, 1000);
-                ('#legalName').focus();
+                $('#legalName').focus();
                 return false;
             }
     	}
