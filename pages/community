@@ -81,34 +81,34 @@
                 
                 <div class="col-sm-6 col-md-6 padding-left-none">
                     <label for="descOrg">Description of Organization</label>
-                    <textarea name="descOrg" id="descOrg" class="form-control" rows="5" required></textarea>
+                    <textarea name="descOrg" id="descOrg" class="form-control" rows="5" ></textarea>
                 </div>
                 <div class="col-sm-6 col-md-6 padding-right-none">
                     <div class="col-sm-12 col-md-12 padding-side-none">
                         <label for="address">Street Address</label>
-                        <input name="address" id="address" class="form-control" type="text" required />
+                        <input name="address" id="address" class="form-control" type="text"  />
                     </div>
                     <div class="col-sm-12 col-md-12 padding-side-none">
                         <div class="col-sm-6 col-md-6 padding-left-none">
                             <label for="city">Town/City</label>
-                            <input name="city" id="city" class="form-control" type="text" required />
+                            <input name="city" id="city" class="form-control" type="text"  />
                         </div>
                         <div class="col-sm-6 col-md-6 padding-right-none">
                             <label for="postal">Postal Code</label>
-                            <input name="postal" id="postal" class="form-control" type="text" required />
+                            <input name="postal" id="postal" class="form-control" type="text"  />
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 padding-side-none">
                <div class="col-sm-6 col-md-6 padding-left-none">
                     <label for="email">Email Address</label>
-                    <input name="email" id="email" class="form-control" type="email" required />
+                    <input name="email" id="email" class="form-control" type="email"  />
                 </div>
                 <div class="col-sm-6 col-md-6 padding-right-none">
                     <div class="col-sm-12 col-md-12 padding-side-none">
                         <div class="col-sm-6 col-md-6 padding-left-none">
                             <label for="phone">Telephone Number</label>
-                            <input name="phone" id="phone" class="form-control" type="text" required />
+                            <input name="phone" id="phone" class="form-control" type="text"  />
                         </div>
                         <div class="col-sm-6 col-md-6 padding-right-none">
                             <label for="fax">Fax Number</label>
@@ -124,7 +124,7 @@
             <div class="row">
                 <div class="col-sm-6 col-md-6 padding-left-none">
                     <label for="contactName">Authorized Contact Person</label>
-                    <input name="contactName" id="contactName" class="form-control" type="text" value required />
+                    <input name="contactName" id="contactName" class="form-control" type="text" value  />
                 </div>
                 <div class="col-sm-6 col-md-6 padding-right-none">
                     <label for="insurerName">Name of Insurer</label>
@@ -133,32 +133,32 @@
                 
                 <div class="col-sm-4 col-md-4 padding-left-none">
                     <label for="charitable">Charitable</label>
-                    <input name="charitable" id="charitable" class="form-control" type="text" value required />
+                    <input name="charitable" id="charitable" class="form-control" type="text" value  />
                 </div>
                 <div class="col-sm-4 col-md-4 padding-right-none">
                     <label for="lottery">Lottery License</label>
-                    <input name="lottery" id="lottery" class="form-control" type="text" value required />
+                    <input name="lottery" id="lottery" class="form-control" type="text" value  />
                 </div>
                 <div class="col-sm-4 col-md-4 padding-right-none">
                     <div class="col-sm-6 col-md-6 padding-right-none">
                         <label for="fromDate">From Date</label>
-                        <input name="fromDate" id="fromDate" placeholder="mm/dd/yyyy" class="form-control" type="text" value required />
+                        <input name="fromDate" id="fromDate" placeholder="mm/dd/yyyy" class="form-control" type="text" value  />
                     </div>
                      <div class="col-sm-6 col-md-6 padding-right-none">
                          <label for="toDate">To Date</label>
-                        <input name="toDate" id="toDate" placeholder="mm/dd/yyyy" class="form-control" type="text" value required />
+                        <input name="toDate" id="toDate" placeholder="mm/dd/yyyy" class="form-control" type="text" value  />
                      </div>
                 </div>
                 
                 
                <div class="col-sm-6 col-md-6 padding-left-none">
                     <label for="purpose">Purpose for use of in-mall space</label>
-                    <textarea name="purpose" id="purpose" class="form-control" rows="5" required></textarea>
+                    <textarea name="purpose" id="purpose" class="form-control" rows="5" ></textarea>
                 </div>
                 <div class="col-sm-6 col-md-6 padding-side-none">
                     <div class="col-sm-12 col-md-12 padding-side-none">
                        <div class="col-sm-4 col-md-4 padding-left-none">
-                            <label for="hydro">Is hydro required?</label>
+                            <label for="hydro">Is hydro ?</label>
                             <select class="form-control" id="hydro" name="hydro">
                                 <option value="0" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
@@ -166,8 +166,8 @@
                             </select>
                         </div>
                         <div class="col-sm-4 col-md-4  padding-side-none">
-                            <label for="table">Are tables required?</label>
-                            <select class="form-control" id="table" name="table" required>
+                            <label for="table">Are tables ?</label>
+                            <select class="form-control" id="table" name="table" >
                                 <option value="0" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
@@ -179,16 +179,16 @@
                     </div>
                     <div class="col-sm-12 col-md-12 padding-side-none">
                        <div class="col-sm-4 col-md-4 padding-left-none">
-                            <label style="font-size:13px;" for="staging">Is staging required?</label>
-                            <select class="form-control" id="staging" name="staging" required>
+                            <label style="font-size:13px;" for="staging">Is staging ?</label>
+                            <select class="form-control" id="staging" name="staging" >
                                 <option value="0" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
                             </select>   
                         </div>
                         <div class="col-sm-4 col-md-4  padding-side-none">
-                            <label for="chair">Are chairs required?</label>
-                            <select class="form-control" id="chair" name="chair" required>
+                            <label for="chair">Are chairs ?</label>
+                            <select class="form-control" id="chair" name="chair" >
                                 <option value="0" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
@@ -203,11 +203,11 @@
                 <div class="col-sm-12 col-md-12 padding-side-none">
                    <div class="col-sm-6 col-md-6 padding-left-none">
                         <label for="anyother">Please specify any other requirements</label>
-                        <textarea name="anyother" id="anyother" class="form-control" rows="5" required></textarea>
+                        <textarea name="anyother" id="anyother" class="form-control" rows="5" ></textarea>
                     </div>
                    <div class="col-sm-6 col-md-6 padding-left-none">
                         <label for="attendance">Anticipated Attendance</label>
-                        <input name="attendance" id="attendance" class="form-control" type="text" required />
+                        <input name="attendance" id="attendance" class="form-control" type="text"  />
                     </div>
                 </div>
             </div>
