@@ -66,7 +66,7 @@
               <span class="sr-only">Error:</span>
               There was an error when trying to submit your request. Please ensure you have entered a valid email address and subject and please try again.
         </div>
-        <form name="community_form" id="community_form" method="post" onsubmit="validateCommunityForm()">
+        <form name="community_form" id="community_form" method="post">
             <p class="promo_header right_column_header">Business Contact Info</p>
             
             <div class="row">
@@ -269,22 +269,12 @@
             todayHighlight:true
         });
          $('#toDate').datepicker({});
-         
-    //     $('#community_form').submit(function(e) {
-    //         if (!('#legalName').val()){
-    //             $("html, body").animate({ scrollTop: $('#legalName').offset().top }, 1000);
-    //             return false;
-    //         }
-    //         return false;
-            
-    // 	});
-    	
-    	
-    	function validateCommunityForm(){
-    	   if ($('#legalName').val().length === 0){
+                
+        $('#community_form').submit(function(e) {
+            if ($('#legalName').val().length === 0){
                 $("html, body").animate({ scrollTop: $('#legalName').offset().top }, 1000);
-                $('#legalName').focus();
                 return false;
             }
-    	}
+            
+    	});
 </script>
