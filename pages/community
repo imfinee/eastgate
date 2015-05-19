@@ -437,7 +437,7 @@
                 success: function(data, textStatus, jqXHR)
                 {
                     $('#send_contact_success').fadeIn();
-                    $('#community_form').find("input, textarea").val("");
+                    $('#community_form').find("input, textarea, select").val("");
                   
                     $("select option[value=0]").attr("disabled", false);
                     $("html, body").animate({ scrollTop:  $("#send_contact_success").offset().top }, 1000);
