@@ -381,6 +381,9 @@
     	    if($('#operatingName').val().length === 0){
     	        operatingName = 'N/A';
     	    }
+    	    if($('#fax').val().length === 0){
+    	        fax = 'N/A';
+    	    }
     	    
 	        $.ajax({
                 url : "http://mallmaverickstaging.com/send_contact_email",
