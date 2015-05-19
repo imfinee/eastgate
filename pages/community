@@ -317,10 +317,6 @@
                 $("html, body").animate({ scrollTop:  $("label[for='charitable']").offset().top }, 1000);
                 $('#charitable').focus();
                 return false;
-            }else if ($('#lottery').val().length === 0){
-                $("html, body").animate({ scrollTop:  $("label[for='lottery']").offset().top }, 1000);
-                $('#lottery').focus();
-                return false;
             }else if ($('#fromDate').val().length === 0){
                 $("html, body").animate({ scrollTop:  $("label[for='fromDate']").offset().top }, 1000);
                 $('#fromDate').focus();
