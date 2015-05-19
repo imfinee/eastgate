@@ -26,6 +26,9 @@
         font-weight: normal;
         font-size: 13px;
     }
+    option{
+        text-align: center;
+    }
     .promo_header{
         margin-bottom: 20px;
         margin-top: 30px;
