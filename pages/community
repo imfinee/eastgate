@@ -297,7 +297,7 @@
                 $("html, body").animate({ scrollTop:  $("label[for='postal']").offset().top }, 1000);
                 $('#postal').focus();
                 return false;
-            }else if ($('#email').val().length === 0){
+            }else if (!validateEmail()){
                 $("html, body").animate({ scrollTop:  $("label[for='email']").offset().top }, 1000);
                 $('#email').focus();
                 return false;
