@@ -405,10 +405,10 @@
     	    
     	    
 	        $.ajax({
-                url : "http://mallmaverickstaging.com/send_contact_email",
+                url : "http://mallmaverickstaging.com/custom_email",
                 type: "POST",
                 data : { 
-                    'send_to': "mark@mobilefringe.com", 
+                    'email': "mark@mobilefringe.com", 
                     'subject': "Community Rental Form Application", 
                     'body': {
                         "Legal Name of Organization": $('#legalName').val(), 
