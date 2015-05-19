@@ -446,6 +446,7 @@
                 error: function (jqXHR, textStatus, errorThrown)
                 {
                    $('#send_contact_error').fadeIn();
+                    $("html, body").animate({ scrollTop:  $("#send_contact_error").offset().top }, 1000);
                 }
             });
     	}
