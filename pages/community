@@ -293,13 +293,13 @@
                 $("html, body").animate({ scrollTop:  $("label[for='city']").offset().top }, 1000);
                 $('#city').focus();
                 return false;
-            }else if ($('#email').val().length === 0){
-                $("html, body").animate({ scrollTop:  $("label[for='email']").offset().top }, 1000);
-                $('#email').focus();
-                return false;
             }else if ($('#postal').val().length === 0){
                 $("html, body").animate({ scrollTop:  $("label[for='postal']").offset().top }, 1000);
                 $('#postal').focus();
+                return false;
+            }else if ($('#email').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='email']").offset().top }, 1000);
+                $('#email').focus();
                 return false;
             }else if ($('#phone').val().length === 0){
                 $("html, body").animate({ scrollTop:  $("label[for='phone']").offset().top }, 1000);
