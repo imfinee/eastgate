@@ -418,11 +418,15 @@
                         "Postal Code" : $('#postal').val(), 
                         "Email Address":$('#email').val(), 
                         "Telephone Number": $('#phone').val(), 
-                        "Fax Number": fax, 
-                        "Hydro": $('#hydro-check').val(), 
-                        "Number of sales areas required": $('#number-area').val() , 
-                        "Number of extra tables required": $('#number-table').val() , 
-                        "List of Specific items to be sold":$('#item-list').val()
+                        "Fax Number": fax,
+                        "Authorized Contact Person":$('#contactName').val(),
+                        "Name of Insurer": $('#insurerName').val(),
+                        "Charitable # (BN/Registration Number)": $('#charitable').val(),
+                        "Lottery License # (If applicable)":  $('#lottery').val(),
+                        "From Date":  $('#fromDate').val(),
+                        "To Date":  $('#toDate').val(),
+                        "Lottery License # (If applicable)":  $('#lottery').val(),
+                        
                         
                     } 
                     
