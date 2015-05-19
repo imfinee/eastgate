@@ -340,9 +340,17 @@
                 $("html, body").animate({ scrollTop:  $("label[for='tableNumber']").offset().top }, 1000);
                 $('#tableNumber').focus();
                 return false;
-            }else if ($('#address').val().length === 0){
-                $("html, body").animate({ scrollTop:  $("label[for='address']").offset().top }, 1000);
-                $('#address').focus();
+            }else if ($('#staging').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='staging']").offset().top }, 1000);
+                $('#staging').focus();
+                return false;
+            }else if ($('#chair').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='chair']").offset().top }, 1000);
+                $('#chair').focus();
+                return false;
+            }else if ($('#chair').val() == 1 && $('#chairNumber').val().length === 0){
+                $("html, body").animate({ scrollTop:  $("label[for='chairNumber']").offset().top }, 1000);
+                $('#chairNumber').focus();
                 return false;
             }
             
