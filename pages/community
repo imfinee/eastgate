@@ -281,7 +281,7 @@
     	
     	
     	function validateCommunityForm(){
-    	   if (!('#legalName').val()){
+    	   if (('#legalName').val().length === 0){
                 $("html, body").animate({ scrollTop: $('#legalName').offset().top }, 1000);
                 ('#legalName').focus();
                 return false;
