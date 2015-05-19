@@ -163,8 +163,8 @@
                     <div class="col-sm-12 col-md-12 padding-side-none">
                        <div class="col-sm-4 col-md-4 padding-left-none">
                             <label for="hydro">Is hydro ?</label>
-                            <select class="form-control" id="hydro" name="hydro">
-                                <option value="0" disabled>Yes / No</option>
+                            <select class="form-control" id="hydro" name="hydro" >
+                                <option value="0" selected="selected" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
                             </select>
@@ -172,7 +172,7 @@
                         <div class="col-sm-4 col-md-4  padding-side-none">
                             <label for="table">Are tables ?</label>
                             <select class="form-control" id="table" name="table" >
-                                <option value="0" disabled>Yes / No</option>
+                                <option value="0" selected="selected" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
                             </select>                        </div>
@@ -185,7 +185,7 @@
                        <div class="col-sm-4 col-md-4 padding-left-none">
                             <label style="font-size:13px;" for="staging">Is staging ?</label>
                             <select class="form-control" id="staging" name="staging" >
-                                <option value="0" disabled>Yes / No</option>
+                                <option value="0" selected="selected" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
                             </select>   
@@ -193,7 +193,7 @@
                         <div class="col-sm-4 col-md-4  padding-side-none">
                             <label for="chair">Are chairs ?</label>
                             <select class="form-control" id="chair" name="chair" >
-                                <option value="0" disabled>Yes / No</option>
+                                <option value="0" selected="selected" disabled>Yes / No</option>
                                 <option value="1">Yes</option>
                                 <option value="2">No</option>
                             </select>   
