@@ -425,7 +425,7 @@
                         "Lottery License # (If applicable)":  $('#lottery').val(),
                         "From Date":  $('#fromDate').val(),
                         "To Date":  $('#toDate').val(),
-                        "Lottery License # (If applicable)":  $('#lottery').val(),
+                        "Purpose for use of in-mall space":  $('#purpose').val(),
                         
                         
                     } 
