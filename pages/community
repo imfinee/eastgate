@@ -379,6 +379,8 @@
     	    var operatingName = $('#operatingName').val();
     	    var fax =  $('#fax').val();
     	    var lottery = $('#lottery').val();
+    	    var table =  $('#tableNumber').val();
+    	    var chair =  $('#chairNumber').val();
     	    
     	    if($('#operatingName').val().length === 0){
     	        operatingName = 'N/A';
@@ -391,6 +393,15 @@
     	    if($('#lottery').val().length === 0){
     	        lottery = 'N/A';
     	    }
+    	    
+    	    if($('#tableNumber').val().length === 0){
+    	        table = '0';
+    	    }
+    	    
+    	    if($('#chairNumber').val().length === 0){
+    	        chair = '0';
+    	    }
+    	    
     	    
 	        $.ajax({
                 url : "http://mallmaverickstaging.com/send_contact_email",
