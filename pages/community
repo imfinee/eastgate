@@ -336,7 +336,7 @@
                 $("html, body").animate({ scrollTop:  $("label[for='table']").offset().top }, 1000);
                 $('#table').focus();
                 return false;
-            }else if ($('#table').val().length != 0 && $('#tableNumber').val().length === 0){
+            }else if ($('#table').val() == 1 && $('#tableNumber').val().length === 0){
                 $("html, body").animate({ scrollTop:  $("label[for='tableNumber']").offset().top }, 1000);
                 $('#tableNumber').focus();
                 return false;
