@@ -438,7 +438,8 @@
                 {
                     $('#send_contact_success').fadeIn();
                     $('#community_form').find("input, textarea").val("");
-                    $('select').options[0].setAttribute('selected','selected');
+                  
+                    $("select option[value=0]").attr("disabled", false);
                     $("html, body").animate({ scrollTop:  $("#send_contact_success").offset().top }, 1000);
                 },
                 error: function (jqXHR, textStatus, errorThrown)
