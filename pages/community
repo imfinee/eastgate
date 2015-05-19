@@ -273,6 +273,7 @@
         $('#community_form').submit(function(e) {
             if (('#legalName').val() == ''){
                 $("html, body").animate({ scrollTop: $('#legalName').offset().top }, 1000);
+                return false;
             }
             
     	});
