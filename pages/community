@@ -26,7 +26,7 @@
         font-weight: normal;
         font-size: 13px;
     }
-    option{
+    select{
         text-align: center;
     }
     .promo_header{
