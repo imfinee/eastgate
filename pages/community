@@ -360,6 +360,7 @@
             }
             
             sendEmail();
+            return false;
             
     	});
     	
