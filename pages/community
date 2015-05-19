@@ -378,11 +378,18 @@
     	    
     	    var operatingName = $('#operatingName').val();
     	    var fax =  $('#fax').val();
+    	    var lottery = $('#lottery').val();
+    	    
     	    if($('#operatingName').val().length === 0){
     	        operatingName = 'N/A';
     	    }
+    	    
     	    if($('#fax').val().length === 0){
     	        fax = 'N/A';
+    	    }
+    	    
+    	    if($('#lottery').val().length === 0){
+    	        lottery = 'N/A';
     	    }
     	    
 	        $.ajax({
