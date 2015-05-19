@@ -408,7 +408,7 @@
                 url : "http://mallmaverickstaging.com/custom_email",
                 type: "POST",
                 data : { 
-                    'email': "mark@mobilefringe.com", 
+                    'send_to': "mark@mobilefringe.com", 
                     'subject': "Community Rental Form Application", 
                     'body': {
                         "Legal Name of Organization": $('#legalName').val(), 
@@ -441,8 +441,8 @@
                 success: function(data, textStatus, jqXHR)
                 {
                     $('#send_contact_success').fadeIn();
-                     $('#community_form').find("input, textarea, select").val("");
-                     $("html, body").animate({ scrollTop:  $("#send_contact_success").offset().top }, 1000);
+                    $('#community_form').find("input, textarea, select").val("");
+                    $("html, body").animate({ scrollTop:  $("#send_contact_success").offset().top }, 1000);
                 },
                 error: function (jqXHR, textStatus, errorThrown)
                 {
