@@ -375,6 +375,12 @@
     	}
     	
     	function sendEmail(){
+    	    
+    	    var operatingName = $('#operatingName').val();
+    	    if($('#operatingName').val().length === 0){
+    	        operatingName = 'N/A';
+    	    }
+    	    
 	        $.ajax({
                 url : "http://mallmaverickstaging.com/send_contact_email",
                 type: "POST",
@@ -389,8 +395,8 @@
                         "Town/City":$('#city').val(), 
                         "Postal Code" : $('#postal').val(), 
                         "Email Address":$('#email').val(), 
-                        "Number of Weeks": $('#season-check').val(), 
-                        "Start Date": $('#datepicker').val(), 
+                        "Telephone Number": $('#phone').val(), 
+                        "Fax Number": $('#fax').val(), 
                         "Hydro": $('#hydro-check').val(), 
                         "Number of sales areas required": $('#number-area').val() , 
                         "Number of extra tables required": $('#number-table').val() , 
