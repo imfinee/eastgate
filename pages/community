@@ -29,6 +29,7 @@
     
     .chartiable-span{
         font-weight:bold;
+        display:block;
     }
     .promo_header{
         margin-bottom: 20px;
