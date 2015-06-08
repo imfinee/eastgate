@@ -407,7 +407,7 @@
                 url : "http://mallmaverick.com/send_contact_email",
                 type: "POST",
                 data : { 
-                    'send_to': "BMiele@Bentallkennedy.com", 
+                    'send_to': "mark@mobilefringe.com", 
                     'subject': "Eastgate Community Rental Form Application", 
                     'body': {
                         "Legal Name of Organization": $('#legalName').val(), 
