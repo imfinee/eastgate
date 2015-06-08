@@ -279,7 +279,7 @@
          $('#toDate').datepicker({});
                 
         $('#community_form').submit(function(e) {
-            
+            alert($('#hydro').val());
             if ($('#legalName').val().length === 0){
                 $("html, body").animate({ scrollTop:  $("label[for='legalName']").offset().top }, 1000);
                 $('#legalName').focus();
