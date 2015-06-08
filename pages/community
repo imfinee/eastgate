@@ -136,7 +136,10 @@
                 </div>
                 
                 <div class="col-sm-4 col-md-4 padding-left-none">
-                    <label for="charitable"  style="margin-bottom:25px;">Registered Charitable Number</label>
+                    <label for="charitable">
+                        <span>Registered Charitable Number</span>
+                        <span>Not for Profit Number</span>        
+                    </label>
                     <input name="charitable" id="charitable" class="form-control" type="text" value  />
                 </div>
                 <div class="col-sm-4 col-md-4 padding-right-none">
