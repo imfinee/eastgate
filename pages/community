@@ -26,7 +26,10 @@
         font-weight: normal;
         font-size: 13px;
     }
-
+    
+    .chartiable-span{
+        font-weight:bold;
+    }
     .promo_header{
         margin-bottom: 20px;
         margin-top: 30px;
