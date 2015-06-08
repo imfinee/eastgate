@@ -343,11 +343,11 @@
                 $("html, body").animate({ scrollTop:  $("label[for='tableNumber']").offset().top }, 1000);
                 $('#tableNumber').focus();
                 return false;
-            }else if ($('#staging').val() === null){
+            }else if ($('#staging').val() == 0){
                 $("html, body").animate({ scrollTop:  $("label[for='staging']").offset().top }, 1000);
                 $('#staging').focus();
                 return false;
-            }else if ($('#chair').val() === null){
+            }else if ($('#chair').val() == 0){
                 $("html, body").animate({ scrollTop:  $("label[for='chair']").offset().top }, 1000);
                 $('#chair').focus();
                 return false;
