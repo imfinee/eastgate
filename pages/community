@@ -296,30 +296,6 @@
                 $("html, body").animate({ scrollTop:  $("label[for='purpose']").offset().top }, 1000);
                 $('#purpose').focus();
                 return false;
-            }else if ($('#hydro').val() === 0 || $('#hydro').val() === null){
-                $("html, body").animate({ scrollTop:  $("label[for='hydro']").offset().top }, 1000);
-                $('#hydro').focus();
-                return false;
-            }else if ($('#table').val() === 0 || $('#table').val() === null){
-                $("html, body").animate({ scrollTop:  $("label[for='table']").offset().top }, 1000);
-                $('#table').focus();
-                return false;
-            }else if ($('#table').val() == 1 && $('#tableNumber').val().length === 0){
-                $("html, body").animate({ scrollTop:  $("label[for='tableNumber']").offset().top }, 1000);
-                $('#tableNumber').focus();
-                return false;
-            }else if ($('#staging').val() === 0 || $('#staging').val() === null){
-                $("html, body").animate({ scrollTop:  $("label[for='staging']").offset().top }, 1000);
-                $('#staging').focus();
-                return false;
-            }else if ($('#chair').val() === 0 || $('#chair').val() === null){
-                $("html, body").animate({ scrollTop:  $("label[for='chair']").offset().top }, 1000);
-                $('#chair').focus();
-                return false;
-            }else if ($('#chair').val() == 1 && $('#chairNumber').val().length === 0){
-                $("html, body").animate({ scrollTop:  $("label[for='chairNumber']").offset().top }, 1000);
-                $('#chairNumber').focus();
-                return false;
             }
             
             sendEmail();
@@ -343,8 +319,8 @@
     	    var operatingName = $('#operatingName').val();
     	    var fax =  $('#fax').val();
     	    var lottery = $('#lottery').val();
-    	    var table =  $('#tableNumber').val();
-    	    var chair =  $('#chairNumber').val();
+    	   // var table =  $('#tableNumber').val();
+    	   // var chair =  $('#chairNumber').val();
     	    
     	    if($('#operatingName').val().length === 0){
     	        operatingName = 'N/A';
@@ -358,13 +334,13 @@
     	        lottery = 'N/A';
     	    }
     	    
-    	    if($('#tableNumber').val().length === 0){
-    	        table = '0';
-    	    }
+    	   // if($('#tableNumber').val().length === 0){
+    	   //     table = '0';
+    	   // }
     	    
-    	    if($('#chairNumber').val().length === 0){
-    	        chair = '0';
-    	    }
+    	   // if($('#chairNumber').val().length === 0){
+    	   //     chair = '0';
+    	   // }
     	    
     	    
 	        $.ajax({
@@ -390,12 +366,6 @@
                         "From Date(mm/dd/yyyy)":  $('#fromDate').val(),
                         "To Date(mm/dd/yyyy)":  $('#toDate').val(),
                         "Purpose for use of in-mall space":  $('#purpose').val(),
-                        "Is hydro required?":  $('#hydro option:selected').text(),
-                        "Are tables required?":  $('#table option:selected').text(),
-                        "How many tables?":  table,
-                        "Is staging required?":  $('#staging option:selected').text(),
-                        "Are chairs required?":  $('#chair option:selected').text(),
-                        "How many chairs?":  chair,
                         "Please specify any other requirements":  $('#anyother').val(),
                         "Anticipated Attendance":  $('#attendance').val()
                     } 
